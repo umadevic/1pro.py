@@ -1,30 +1,30 @@
 #a
 inp=int(input())
 
-ii1=0
+ii=0
 
-ty=0
+nm=0
 
 b=[]
 
-while ii1<90 and ii1<inp:
+while ii<90 and ii<inp:
 
-  s=0
+  s2=0
 
-  for j in str(inp-ii1):
+  for j in str(inp-ii):
 
-    s+=int(j)
+    s2+=int(j)
 
-  if s+(inp-ii1)==inp:
+  if s2+(inp-ii)==inp:
 
-    ty+=1
+    nm+=1
 
-    b.append(inp-ii1)
+    b.append(inp-ii)
 
-  ii1+=1
+  ii+=1
 
-print(ty)
+print(nm)
 
 for ii in b:
 
-  print(ii1)
+  print(ii)
